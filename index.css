@@ -181,7 +181,7 @@ opacity: 0.8; /* Reduce opacity slightly */
   font-weight: 400;
   line-height: 23.01px;
   text-align: center;
-  letter-spacing: 0.9px;
+  letter-spacing: 1px;
   z-index: 21;
 }
 .blob-2 {
@@ -234,7 +234,7 @@ opacity: 0.8; /* Reduce opacity slightly */
   line-height: 20px;
   text-align: center;
   white-space: nowrap;
-  letter-spacing: 0.9px;
+  letter-spacing: 1px;
   z-index: 4;
 }
 
