@@ -1,0 +1,523 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background: rgb(0, 0, 0);
+}
+
+/* Update main-container styles */
+.main-container {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: rgba(8, 0, 0, 0.43);
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  margin: 0 auto;
+  background: rgba(8, 0, 0, 0.43);
+  overflow: visible;
+}
+
+.flex-row-fd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  width: 160.375px;
+  height: 51px;
+  margin: 6px 0 0 1229px;
+  z-index: 30;
+  overflow:visible
+}
+.sign-up-log-in {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  width: 112px;
+  height: 51px;
+  color: #ffffff;
+  font-family: Saira Stencil One, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.184px;
+  text-align: center;
+  letter-spacing: 1.6px;
+  z-index: 30;
+}
+.icon {
+  flex-shrink: 0;
+  position: relative;
+  width: 45.375px;
+  height: 42.753px;
+  background: url(./assets/images/fe208c6d-9cef-421e-9ef6-e260904f348e.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 29;
+}
+.rectangle {
+  position: absolute;
+  width: 100%;
+  height: 526px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/2fdec497-50a4-4967-8d45-2c84e0a8995f.png)
+    no-repeat center;
+  background-size: cover;
+  border-right: 1px solid #000000;
+  border-left: 1px solid #000000;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/339390c0-b726-4127-9fa0-84e054519702.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 11;
+}
+.flex-row-dc {
+  position: absolute;
+  width: 961px;
+  height: 321px;
+  top: 91px;
+  left: 240px;
+  z-index: 23;
+}
+.blob {
+  position: absolute; /* Ensures child `.blob-text` is positioned relative to this */
+  width: 165px; /* Example width */
+  height: 100px; /* Example height */
+  display: inline-block; /* Optional, depending on your layout */
+  top: 0;
+  left: 0;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #c20303;
+  border-radius: 2dvh;
+}
+
+.blob-text {
+  position: absolute; /* Ensures positioning relative to the nearest positioned ancestor */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for the text's own dimensions */
+  color: white; /* Ensure text contrasts with the blob */
+  font-size: 1.5rem;
+  font-weight: bold;
+  z-index: 2; /* Ensures text is above the blob */
+  pointer-events: none; /* Prevents text from interfering with hover effects */
+  white-space: nowrap; /* Prevents text from wrapping */
+}
+
+.blob:hover{
+filter: brightness(1.5); /* Increase brightness */
+opacity: 0.8; /* Reduce opacity slightly */
+}
+
+.button {
+  position: absolute;
+  width: 71.09%;
+  height: 58.4%;
+  top: 17.48%;
+  left: 10.4%;
+  cursor: pointer;
+  background: transparent;
+  background-size: 100% 100%;
+  border: none;
+  z-index: 20;
+}
+.span {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 137px;
+  height: 19%;
+  top: 46.5%;
+  left: 10.5%;
+  color: #ffffff;
+  font-family: Allerta Stencil, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.01px;
+  text-align: center;
+  letter-spacing: 0.9px;
+  z-index: 21;
+}
+.blob-2 {
+  position: absolute; /* Ensures child `.blob-text` is positioned relative to this */
+  width: 165px; /* Example width */
+  height: 100px; /* Example height */
+  display: inline-block; /* Optional, depending on your layout */
+  top: 0;
+  left: 761px;
+  z-index: 23;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: #c20303;
+  border-radius: 2dvh;
+}
+
+.blob-2:hover{
+  filter: brightness(1.5); /* Increase brightness */
+  opacity: 0.8; /* Reduce opacity slightly */
+  }
+
+.button-3 {
+  position: absolute;
+  width: 74.73%;
+  height: 54.24%;
+  top: 15.94%;
+  left: 14.4%;
+  cursor: pointer;
+  background: transparent;
+  background: no-repeat center;
+  background-size: 100% 100%;
+  border: none;
+  z-index: 24;
+}
+
+.span-4 {
+  display: flex;
+  align-items: center; /* Vertically centers content within the flex container */
+  justify-content: center; /* Horizontally centers content within the flex container */
+  position: absolute;
+  width: 42%;
+  height: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Adjusts for exact centering */
+  color: #ffffff;
+  font-family: Allerta Stencil, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.9px;
+  z-index: 4;
+}
+
+.pits-logo {
+  position: absolute;
+  width: 477px;
+  height: 278px;
+  top: 43px;
+  left: 245px;
+  background: url(./assets/images/e27bdcd0b67c84811c1fcde6d4a08c4e2a6a4e02.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+
+.flex-row {
+  position: absolute;
+  top: 298px;
+  right: -26px;
+  bottom: 77px;
+  left: 0;
+  z-index: 31;
+  overflow: visible; /* Allow the blob to grow beyond the parent's bounds */
+}
+
+.flex-row-c {
+  position: relative;
+  width: 155.773px;
+  height: 111.828px;
+  margin: 71.247px 0 0 61.8px;
+  font-size: 0px;
+  z-index: 8;
+  overflow: visible auto;
+}
+
+.promos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 101px;
+  height: 33px;
+  margin: 55.753px 0 0 28.2px;
+  color: #ffffff;
+  font-family: Allerta Stencil, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.01px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.9px;
+  z-index: 8;
+}
+
+.vector {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 100% 100%;
+  z-index: 7;
+}
+
+.frame-6 {
+  position: relative;
+  width: 41px;
+  height: 41px;
+  margin: -0.07px 0 0 218px;
+  z-index: 9;
+  overflow: hidden;
+}
+
+.blob-7 {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  top: 14px;
+  left: 1001px;
+  z-index: 1;
+  overflow: visible;
+  transition: all 0.3s ease;
+
+}
+
+.vector-8 {
+  position: absolute;
+  width: 65.2%;
+  height: 61.22%;
+  top: 22.56%;
+  left: 24.84%;
+  cursor: pointer;
+  background: transparent;
+  background-size: 100% 100%;
+  border: none;
+  z-index: 1;
+}
+
+.blob-7:hover{
+  filter: brightness(1.5);
+  opacity: 0.8;
+}
+
+.blog {
+  display: flex;
+  align-items: center; /* Vertically centers content within the flex container */
+  justify-content: center; /* Horizontally centers content within the flex container */
+  position: absolute;
+  width: 42%;
+  height: 10%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Adjusts for exact centering */
+  color: #ffffff;
+  font-family: Allerta Stencil, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 0.9px;
+  z-index: 4;
+}
+
+.welcome {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 417px;
+  height: 69px;
+  top: 171px;
+  left: calc(50% - -316px);
+  color: #ffffff;
+  font-family: Saira Stencil One, var(--default-font-family);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 62.96px;
+  text-align: center;
+  white-space: nowrap;
+  letter-spacing: 4px;
+  z-index: 26;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-text-stroke: 5px #000000;
+}
+
+.car-wash {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 434px;
+  height: 52px;
+  top: 182px;
+  left: 511px;
+  color: #ffffff;
+  font-family: Allerta Stencil, var(--default-font-family);
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 24.288px;
+  text-align: center;
+  letter-spacing: 0.95px;
+  z-index: 27;
+}
+
+.arrow-down {
+  position: absolute;
+  width: 31px;
+  height: 31px;
+  top: 183px;
+  left: 941px;
+  background: rgba(0, 0, 0, 0.09);
+  border: 1px solid #f8f8f8;
+  z-index: 31;
+  box-sizing: content-box;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.icon-9 {
+  position: relative;
+  width: 17.181px;
+  height: 23.458px;
+  margin: 3.771px 0 0 6.91px;
+  background: url(./assets/images/0370263b-4069-4afb-bc45-ed716e2e1a43.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 32;
+}
+
+.group {
+  position: absolute;
+  width: 2.18%;
+  height: 4.93%;
+  top: 28.35%;
+  left: 32.67%;
+  background: url(./assets/images/615afd21-8888-4fbe-b400-1491b73c3651.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 10;
+}
+
+.carwash-bg {
+  position: absolute;
+  width:100%;
+  height: auto;
+  height: 500px; /* Adjust dynamically based on content */
+  top: 35.13%;
+  left: 0;
+  background: url(./assets/images/c0c92476-804a-4325-a91d-a8b946c2cb47.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 15;
+}
+
+.pits-carwash-logo-nobg {
+  position: absolute;
+  width: 33%;
+  height: 50.61%;
+  top: 35.13%;
+  left: 32.67%;
+  background: url(./assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
+    no-repeat ;
+  background-size: contain;
+  z-index: 16;
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+  transform-origin: center;
+}
+
+.pits-carwash-logo-nobg:hover {
+  transform: scale(1.1); /* Grows the logo towards the viewer */
+  opacity: 0.8;
+  filter: brightness(1.2);
+}
+
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  height: 22px;
+  top: 173px;
+  left: 477px;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.784px;
+  text-align: center;
+  white-space: nowrap;
+  z-index: 13;
+}
+
+.car-wash-and-detailing {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  position: absolute;
+  width: 219px;
+  height: 9.9%;
+  top: 86.84%;
+  left: 41.68%;
+  color: #ffffff;
+  font-family: Inter, var(--default-font-family);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21.784px;
+  text-align: center;
+  z-index: 17;
+}
+
+.carwash-bg{
+position: relative; /* Keeps it within the flow of the page */
+width: 100%; /* Full width */
+background: url(./assets/images/c0c92476-804a-4325-a91d-a8b946c2cb47.png)
+  no-repeat center center;
+background-size: cover;
+margin-top: auto; /* Pushes the image to the bottom */
+z-index: 15;}
+
+@media screen and (max-width: 768px) {}
+  .welcome {
+    font-size: 32px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+  }

@@ -4,46 +4,97 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Plaza Pits</title>
-    <link rel="icon" href="./assets/images/icons/favicon-32x32.png" type="image/png"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Allerta+Stencil:wght@400&display=swap" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,700&display=swap" />
+    <link rel="icon" href="../assets/images/icons/favicon-32x32.png" type="image/png"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,800&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Saira+Stencil+One:wght@400&display=swap" />
     <link rel="stylesheet" href="index.css" />
-  </head> 
+    <script src="main.js" defer></script>
+  </head>
   <body>
     <div class="main-container">
-      <div class="flex-row-fd">
-        <span class="sign-up-log-in">SIGN UP / LOG IN</span>
-        <div class="icon"></div>
-      </div>
-      <div class="rectangle"></div>
-      <div class="rectangle-1"></div>
-      <div class="flex-row-dc">
-        <div class="blob">
-          <div class="vector"></div>
-          <a href="restaurantes/index.html">
-          <button class="button"></button><span class="span-4">Restaurantes</span>
-          </a>
-        </div>
-        <div class="blob-2">
-          <div class="vector-2"></div>
-          <a href="blog/index.html">
-            <button class="vector-8"></button><span class="blog">Blog</span>
-          </a>
-        </div>
-        <div class="pits-logo"></div>
-      </div>
       <div class="flex-row">
-        
-        <span class="car-wash">Quieres saber sobre nuestro car wash?</span>
-        <div class="arrow-down"><div class="icon-9"></div></div>
-        <div class="group"></div>
-        <a href="./carwash/pits_carwash.html">
-          <div class="carwash-bg"></div>
-          <div class="pits-carwash-logo-nobg"><span class="text"></span></div>
-        </a>
-        <span class="car-wash-and-detailing">CAR WASH AND DETAILING</span>
+        <div class="login"></div>
+        <span class="sign-up-log-in">LOG IN / SIGN UP</span>
+        <div class="pits-logo-removebg"></div>
       </div>
+        <a href="./carwash/pits_carwash.html">
+          <div class="pits-carwash-logo"></div>
+        </a>  
+        <span class="car-wash-detailing">CAR WASH AND DETAILING</span>
+        
+      <div class="rectangle">
+        <div id="gallery" class="gallery-section">
+          <div class="gallery-title">
+              <h3>Galería</h3>
+          </div>
+          <div class="gallery-showcase">
+              <div class="gallery-main">
+                  <div class="gallery-container">
+                      <!-- Images will be populated by JavaScript -->
+                  </div>
+                  <div class="gallery-progress"></div>
+              </div>
+              
+              <div class="gallery-thumbnails">
+                  <!-- Thumbnails will be populated by JavaScript -->
+              </div>
+          </div>
+      </div>
+      <div class="flex-row-ddf">
+        <div class="rectangle-1">
+          <div class="racing-buttons">           
+            <button class="race-btn services-btn">
+              <a href="./restaurantes/index.html" style="text-decoration: none; color: #ffffff;">
+                  <span class="btn-content">
+                      <span class="btn-line"></span>
+                      Restaurantes
+                  </span>
+              </a>
+            </button>            
+            <button class="race-btn booking-btn">
+              <a href="./blog/index.html" style="text-decoration: none; color: #ffffff;">
+                <span class="btn-content">
+                    <span class="btn-line"></span>
+                    Blog
+                </span>
+              </a>
+            </button>
+            
+            <button class="race-btn contact-btn">
+                <span class="btn-content">
+                    <span class="btn-line"></span>
+                    Pits360
+                </span>
+            </button>
+        </div>
+        </div>
+        <div class="rectangle-2">
+          <div class="map-div">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.524511153825!2d-79.477090825135!3d9.015823789195375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8faca91a4070ac8d%3A0x962bc11cf8cf3932!2sPlaza%20Pits%20Costa%20del%20Este!5e0!3m2!1sen!2scr!4v1735580818914!5m2!1sen!2scr"
+            width="280" height="280" style="border:0;" 
+            allowfullscreen="true" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          <span class="ubicacion">UBICACIÓN</span>
+          <div class="flex-row-ea">
+            <div class="primary"></div>
+            <span class="costa-del-este"
+              >Costa del Este, Ave. Centenario, al lado de McDonald's, frente a
+              Porsche</span
+            >
+          </div>
+          <span class="text-5">CONTACTO</span
+          ><span class="text-6">64550870</span>
+          <div class="pic-3"></div>
+          <span class="text-7">@plazapits</span>
+          <div class="pic-4"></div>
+        </div>
+      </div>
+      </div>
+      <div class="rectangle-3"></div>
+      <div class="carwash-bg"></div>
     </div>
+    <!-- Generated by Codia AI - https://codia.ai/ -->
   </body>
 </html>
