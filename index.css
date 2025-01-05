@@ -151,6 +151,7 @@ button {
 }
 .rectangle-2 {
   position: absolute;
+  font-family: Saira Stencil One, var(--default-font-family);
   width: 1440px;
   height: 355px;
   top: 333px;
@@ -309,6 +310,7 @@ button {
 }
 
 .gallery-title {
+  font-family: Saira Stencil One, var(--default-font-family);
   text-align: center;
   margin-bottom: auto;
   color: #ffffff;
@@ -448,10 +450,9 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-  font-family: "Saira Stencil One", sans-serif;
   font-size: 16px;
   font-weight: 400;
-  text-transform: uppercase;
+  font-family: Saira Stencil One, var(--default-font-family);
   letter-spacing: 2px;
   color: #ffffff;
   transition: all 0.3s ease;
