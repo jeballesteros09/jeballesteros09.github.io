@@ -314,7 +314,7 @@ button {
   top: 21px;
   left: 528.5px;
   color: #ffffff;
-  font-family: Inter, var(--default-font-family);
+  font-family: Saira Stencil One, var(--default-font-family);
   font-size: 28px;
   font-weight: 700;
   line-height: 33.886px;
@@ -332,13 +332,17 @@ button {
   top: 87px;
   left: 121.5px;
   color: #ffffff;
-  font-family: Inter, var(--default-font-family);
   font-size: 20px;
   font-weight: 400;
   line-height: 24.205px;
   text-align: justify;
   z-index: 5;
-}
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 420;
+  font-style: normal;
+  }
+
 .rectangle-4 {
   position: absolute;
   width: 1550px;
@@ -357,14 +361,15 @@ button {
   color: white;
   padding: 20px;
   text-align: left;
-  font-family: var(--default-font-family);
+  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 .contact-title {
-  color: white;
+  color: #cf0029;
   text-align: center;
   margin-bottom: 20px;
   font-size: 2rem;
+  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 .contact-item {
@@ -461,7 +466,7 @@ button {
 }
 
 .section-title {
-  font-family: 'Stencil Std', fantasy;
+  font-family: Saira Stencil One, var(--default-font-family);
   font-size: 2rem;
   color: #ff3333;
   margin-bottom: 3rem;
@@ -644,4 +649,11 @@ button {
 .sliding-image-container.reveal .sliding-image {
   opacity: 1;
   transform: translateX(0);
+}
+
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-weight: 420;
+  font-style: normal;
 }
