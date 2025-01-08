@@ -620,7 +620,7 @@ button {
   .contact-info {
       flex-direction: column;
   }
-
+}
   .contact-details {
       max-width: 100%;
   }
