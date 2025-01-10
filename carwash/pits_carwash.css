@@ -46,8 +46,8 @@ nav {
   top: 0;
   right: -350px;  /* Change from right to left */
   height: 100vh;
-  width: 350px;
-  max-width: 350px;
+  width: 255px;
+  max-width: 255px;
   background-color: rgba(10, 0, 0, 0.966);
   z-index: 9999;  /* Extremely high z-index */ 
   transition: right 0.3s ease;
@@ -183,7 +183,7 @@ button {
   width: 309.4px;
   height: 204.4px;
   top: 40px;
-  left: 225px;
+  left: 325px;
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
   background-size: cover;
@@ -201,7 +201,7 @@ button {
   width: 309.4px;
   height: 204.4px;
   top: 40px;
-  left: 910px;
+  left: 1010px;
   background: url(../assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png)
     no-repeat center;
   background-size: cover;
@@ -216,7 +216,7 @@ button {
 }
 .rectangle {
   position: absolute;
-  min-width: 1550px;
+  min-width: 1650px;
   height: 314px;
   top: 29px;
   left: 0;
@@ -231,7 +231,7 @@ button {
   width: 148px;
   height: 38px;
   top: 287px;
-  left: 303px;
+  left: 403px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
   font-size: 20px;
@@ -249,7 +249,7 @@ button {
   width: 148px;
   height: 38px;
   top: 287px;
-  left: 988px;
+  left: 1088px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
   font-size: 20px;
@@ -271,6 +271,7 @@ button {
   position: static; /* Ensure it participates in normal document flow */
   width: 474.75px; 
   height: 295.5px; 
+  margin: 0px 0 0 35px;
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
   background-size: cover;
@@ -282,6 +283,7 @@ button {
   color: #ffffff; /* Text color */
   white-space: nowrap; /* Prevent text from wrapping */
   text-align: center;   
+  margin: 35px 0 0 35px;
   margin-bottom: 20px;
   font-family: Saira Stencil One, var(--default-font-family);
 }
@@ -297,7 +299,7 @@ button {
 .rectangle-2 {
   position: absolute;
   filter: brightness(1);
-  width: 1550px;
+  width: 1650px;
   height: 355px;
   top: 0;
   left: 0;
@@ -315,17 +317,7 @@ button {
   left: 2.5px;
   z-index: 5;
 }
-.rectangle-3 {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  top: 0;
-  left: 0;
-  background: url(./assets/images/67438666-a1fa-402b-ac5a-c52abb0425d3.png)
-    no-repeat center;
-  background-size: cover;
-  z-index: 2;
-}
+
 .quienes-somos {
   display: flex;
   align-items: flex-start;
@@ -334,7 +326,7 @@ button {
   width: 386px;
   height: 79px;
   top: 21px;
-  left: 528.5px;
+  left: 628.5px;
   color: #ffffff;
   font-family: Saira Stencil One, var(--default-font-family);
   font-size: 32px;
@@ -352,46 +344,56 @@ button {
   width: 1191px;
   height: 213px;
   top: 87px;
-  left: 121.5px;
+  left: 221.5px;
   color: #ffffff;
   font-size: 20px;
-  font-weight: 400;
-  line-height: 24.205px;
+  line-height: 24px;
   text-align: justify;
   z-index: 5;
   font-family: Saira Stencil One, var(--default-font-family);
   font-optical-sizing: auto;
-  font-weight: 420;
   font-style: normal;
   }
 
 .rectangle-4 {
   position: absolute;
-  width: 1550px;
+  width: 1650px;
   height: 355px;
   top: 355px;
   left: 0;
   background: url(../assets/images/269f83bf4b7bb0cb1082e85b0a2b1e4cedf0a558.png)
     no-repeat center;
   background-size: cover;
-  opacity: 0.85;
+  opacity: 0.90;
   z-index: 2;
 }
 
 .contact-section {
   background-color: black;
   color: white;
+  left: 0;
   padding: 20px;
   text-align: left;
   font-family: Saira Stencil One, var(--default-font-family);
+  width: 1650px;
 }
 
 .contact-title {
+  position: relative;
+  left: 180px;
   color: #cf0029;
   text-align: left;
   margin-bottom: 20px;
   font-size: 2rem;
   font-family: Saira Stencil One, var(--default-font-family);
+}
+
+.contact-info {
+  position: relative;
+  left: 180px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .contact-item {
@@ -413,13 +415,7 @@ button {
 }
 
 
-.sliding-image-container {
-  position: relative;
-  width: 200px; /* Adjust based on your image size */
-  height: 150px; /* Adjust based on your image size */
-  overflow: hidden;
-  margin: 20px 0;
-}
+
 
 .sliding-image {
   position: absolute;
@@ -448,11 +444,6 @@ button {
 
 /* If you want the image to slide to a specific position, 
  you can position the container absolutely */
-.sliding-image-container {
-  position: absolute;
-  right: 10px; /* Adjust this value to position horizontally */
-  bottom: 10px;  /* Adjust this value to position vertically */
-}
 
 /* Optional: Add hover effect */
 .sliding-image:hover {
@@ -482,7 +473,7 @@ button {
 
 #clientes-sec {
   background-color: #000000;
-  width: 100%;
+  width: 1650px;
   padding: 2rem 0;
   position: relative;
 }
@@ -606,14 +597,6 @@ button {
   font-family: Saira Stencil One, var(--default-font-family);
 }
 
-.contact-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  position: relative;
-}
-
 .contact-details {
   flex: 1;
   max-width: 60%;
@@ -649,10 +632,11 @@ button {
       max-width: 100%;
   }
 
-
-
 .sliding-image-container {
-  position: relative;
+  position: absolute;
+  right: 10px; /* Adjust this value to position horizontally */
+  bottom: 10px;  /* Adjust this value to position vertically */
+  left: 900px;
   width: 300px;
   height: 200px;
   overflow: hidden;
