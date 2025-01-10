@@ -100,3 +100,4 @@ class Gallery {
 document.addEventListener('DOMContentLoaded', () => {
     new Gallery();
 });
+

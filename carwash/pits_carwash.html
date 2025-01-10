@@ -37,13 +37,27 @@
         <!-- Services Section -->
         <div id="servicios-sec">
             <div class="flex-row-c">
-                <div class="pits-carwash-logo"></div>
-                <div class="pits-detailing"></div>
+                <div class="pits-carwash-logo" onclick="openModal()" alt="Click to open PDF"></div>>
                 <div class="rectangle"></div>
+                <div id="myModal" class="modal">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <embed id="pdf-viewer" src="../assets/carwash_prices.pdf" type="application/pdf">
+                    </div>
+                </div>
+                <div class="pits-detailing" onclick="openModal()" alt="Click to open PDF"></div>>
+                <div class="rectangle"></div>
+                <div id="myModal" class="modal">
+                    <span class="close-btn" onclick="closeModal()">&times;</span>
+                    <div class="modal-content">
+                        <embed id="pdf-viewer" src="../assets/det_pits.pdf" type="application/pdf">
+                    </div>
+                </div>
                 <span class="pits-carwash">PITS CARWASH</span>
-                <span class="pits-detailing-1">PITS DETAILING</span>
+                <span class="pits-detailing-1">PITS DETAILING</span>               
             </div>
             <div class="pits-carwash-logo-nobg"></div>
+            
         </div>
 
         <div class="rectangle-2"></div>

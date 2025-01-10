@@ -662,3 +662,46 @@ button {
   font-weight: 420;
   font-style: normal;
 }
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  z-index: 100000; /* Higher than any other element */
+  overflow: hidden;
+}
+
+.modal-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 90vh;
+  background-color: transparent; /* Remove white background */
+  padding: 0; /* Remove padding */
+  z-index: 100001;
+}
+
+.close-btn {
+  position: fixed;
+  right: 60px; /* Increased from 30px to avoid hamburger menu */
+  top: 20px;
+  color: #fff;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100002;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#pdf-viewer {
+  width: 100%;
+  height: 100%;
+  border: none;
+  z-index: 100001;
+}
