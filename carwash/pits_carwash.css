@@ -46,8 +46,8 @@ nav {
   top: 0;
   right: -350px;  /* Change from right to left */
   height: 100vh;
-  width: 250px;
-  max-width: 250px;
+  width: 350px;
+  max-width: 350px;
   background-color: rgba(10, 0, 0, 0.966);
   z-index: 9999;  /* Extremely high z-index */ 
   transition: right 0.3s ease;
@@ -66,6 +66,7 @@ nav {
   transition: .3s ease;
 }
 .off-screen-menu.active {
+  width: 350px;
   right: 0;
 }
 
@@ -179,10 +180,10 @@ button {
 }
 .pits-carwash-logo {
   position: relative;
-  width: 442px;
-  height: 292px;
-  top: 0;
-  left: 165px;
+  width: 309.4px;
+  height: 204.4px;
+  top: 40px;
+  left: 225px;
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
   background-size: cover;
@@ -197,10 +198,10 @@ button {
 }
 .pits-detailing {
   position: absolute;
-  width: 437px;
-  height: 280px;
-  top: 0;
-  left: 843px;
+  width: 309.4px;
+  height: 204.4px;
+  top: 40px;
+  left: 910px;
   background: url(../assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png)
     no-repeat center;
   background-size: cover;
@@ -285,10 +286,10 @@ button {
   height: 355px;
   top: 0;
   left: 0;
-  background: url(../assets/images/0ca17cd8fdd970eb336b276223052fb8f84cae4f.png)
+  background: url(../assets/images/0ca17cd8fdd970eb336b276223052fb8f84cae4f.jpg)
     no-repeat center;
   background-size: cover;
-  opacity: 0.8;
+  opacity: 1;
 }
 .flex-row {
   position: absolute;
