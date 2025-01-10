@@ -259,38 +259,54 @@ button {
   white-space: nowrap;
   z-index: 11;
 }
+
+.logo-container {
+  display: flex; /* Align items in a row */
+  align-items: center; /* Vertically align the logo and text */
+  justify-content: start; /* Ensure logo is on the left */
+  gap: 15px; /* Space between logo and text */
+}
+
 .pits-carwash-logo-nobg {
-  position: absolute;
-  width: 569.7px; /* Reduced by 10% (90% of 633px) */
-  height: 354.6px; /* Reduced by 10% (90% of 394px) */
-  top: 10px; /* Adjusted positioning for visibility */
-  left: 435.6px; /* Adjusted positioning */
+  position: static; /* Ensure it participates in normal document flow */
+  width: 474.75px; 
+  height: 295.5px; 
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
   background-size: cover;
-  z-index: 3;
-  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
-  transform-origin: center;
 }
 
-.pits-carwash-logo-nobg:hover {
-  transform: scale(1.1); /* Grows the logo towards the viewer */
+.logo-text {
+  font-size: 128px; /* Adjust the text size */
+  font-weight: normal; /* Bold text */
+  color: #ffffff; /* Text color */
+  white-space: nowrap; /* Prevent text from wrapping */
+  text-align: center;   
+  margin-bottom: 20px;
+  font-family: Saira Stencil One, var(--default-font-family);
+}
+
+
+/* .pits-carwash-logo-nobg:hover {
+  transform: scale(1.1); Grows the logo towards the viewer 
   opacity: 1;
   filter: brightness(1.2);
-}
+}*/
 
 
 .rectangle-2 {
   position: absolute;
+  filter: brightness(1);
   width: 1550px;
   height: 355px;
   top: 0;
   left: 0;
-  background: url(../assets/images/0ca17cd8fdd970eb336b276223052fb8f84cae4f.jpg)
+  background: url(../assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg)
     no-repeat center;
   background-size: cover;
   opacity: 1;
 }
+
 .flex-row {
   position: absolute;
   width: 1312.5px;
