@@ -72,7 +72,7 @@ nav {
 
 .off-screen-menu ul li a {
   font-size: 1.5rem; /* Adjust this value as needed */
-  font-family: var(--default-font-family);
+  font-family: Saira Stencil One, var(--default-font-family);
   color: #f3f3f5;
   text-decoration: none;
   margin: 10px 0; /* Add spacing between items */
@@ -337,7 +337,7 @@ button {
   left: 528.5px;
   color: #ffffff;
   font-family: Saira Stencil One, var(--default-font-family);
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
   line-height: 33.886px;
   text-align: center;
@@ -359,7 +359,7 @@ button {
   line-height: 24.205px;
   text-align: justify;
   z-index: 5;
-  font-family: "Raleway", serif;
+  font-family: Saira Stencil One, var(--default-font-family);
   font-optical-sizing: auto;
   font-weight: 420;
   font-style: normal;
@@ -388,7 +388,7 @@ button {
 
 .contact-title {
   color: #cf0029;
-  text-align: center;
+  text-align: left;
   margin-bottom: 20px;
   font-size: 2rem;
   font-family: Saira Stencil One, var(--default-font-family);
@@ -515,6 +515,7 @@ button {
 .reviews-grid {
   display: flex;
   transition: transform 0.4s ease;
+  font-family: Saira Stencil One, var(--default-font-family);
   gap: 2rem;
 }
 
@@ -523,7 +524,7 @@ button {
   top: 1.5rem;
   right: 1.5rem;
   color: #ffa500;
-  font-family: 'Stencil Std', fantasy;
+  font-family: Saira Stencil One, var(--default-font-family);
   font-size: 1.2rem;
 }
 
@@ -557,6 +558,7 @@ button {
 
 .review-text {
   color: #cccccc;
+  font-family: Saira Stencil One, var(--default-font-family);
   font-size: 0.95rem;
   line-height: 1.6;
 }
@@ -601,7 +603,7 @@ button {
   color: white;
   padding: 40px;
   position: relative;
-  font-family: var(--default-font-family);
+  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 .contact-info {
