@@ -79,13 +79,13 @@ function closeModal(modalId) {
 // Close modal when clicking outside of it
 window.onclick = function(event) {
     let modal = document.getElementById(modalId);
-    if (event.target == modal) {
+    if (event.target == modalId) {
         modal.style.display = "none";
     }
 }
 
 document.addEventListener('keydown', function(event) {
     if (event.key === 'Escape') {
-        closeModal();
+        closeModal(modalId);
     }
 });
