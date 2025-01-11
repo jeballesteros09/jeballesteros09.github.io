@@ -50,17 +50,35 @@ window.addEventListener('resize', () => {
 });
 
 
-function openModal() {
-    document.getElementById("myModal").style.display = "block";
+function openModal(modalId, pdfPath) {
+    const modal = document.getElementById(modalId);
+    const pdfViewer = modal.querySelector('embed');
+
+    // Get viewer dimensions
+    const viewerWidth = pdfViewer.offsetWidth;
+    const viewerHeight = pdfViewer.offsetHeight;
+
+    // Determine zoom level (fit width/height dynamically)
+    const zoom = viewerWidth > viewerHeight ? "fit-width" : "fit-height";
+
+    // Set the PDF path with zoom dynamically
+    pdfViewer.src = `${pdfPath}#zoom=${zoom}`;
+
+    // Display the modal
+    modal.style.display = 'block';
 }
 
-function closeModal() {
-    document.getElementById("myModal").style.display = "none";
+function closeModal(modalId) {
+    // Get the modal element
+    const modal = document.getElementById(modalId);
+
+    // Hide the modal
+    modal.style.display = 'none';
 }
 
 // Close modal when clicking outside of it
 window.onclick = function(event) {
-    let modal = document.getElementById("myModal");
+    let modal = document.getElementById(modalId);
     if (event.target == modal) {
         modal.style.display = "none";
     }
