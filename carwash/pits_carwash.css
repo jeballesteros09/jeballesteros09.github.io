@@ -705,14 +705,7 @@ button {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-#pdf-viewer-1 {
-  width: 100%; /* Takes up the full width of the modal-content */
-  height: 100%; /* Takes up the full height of the modal-content */
-  border: none; /* Remove border for a cleaner look */
-  z-index: 100001;
-}
-
-#pdf-viewer-2 {
+#pdf-viewer {
   width: 100%; /* Takes up the full width of the modal-content */
   height: 100%; /* Takes up the full height of the modal-content */
   border: none; /* Remove border for a cleaner look */
