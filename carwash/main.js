@@ -50,26 +50,20 @@ window.addEventListener('resize', () => {
 });
 
 
+// Open Modal Function
 function openModal(modalId, pdfPath) {
     const modal = document.getElementById(modalId);
     const pdfViewer = modal.querySelector('embed');
 
-    // Get viewer dimensions
-    const viewerWidth = pdfViewer.offsetWidth;
-    const viewerHeight = pdfViewer.offsetHeight;
-
-    // Determine zoom level (fit width/height dynamically)
-    const zoom = viewerWidth > viewerHeight ? "fit-width" : "fit-height";
-
-    // Set the PDF path with zoom dynamically
-    pdfViewer.src = `${pdfPath}#zoom=${zoom}`;
+    // Set the PDF path
+    pdfViewer.src = pdfPath;
 
     // Display the modal
     modal.style.display = 'block';
 }
 
+// Close Modal Function
 function closeModal(modalId) {
-    // Get the modal element
     const modal = document.getElementById(modalId);
 
     // Hide the modal
@@ -77,15 +71,21 @@ function closeModal(modalId) {
 }
 
 // Close modal when clicking outside of it
-window.onclick = function(event) {
-    let modal = document.getElementById(modalId);
-    if (event.target == modalId) {
-        modal.style.display = "none";
-    }
-}
+window.onclick = function (event) {
+    const modals = document.querySelectorAll('.modal'); // Find all modals
+    modals.forEach(modal => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+};
 
-document.addEventListener('keydown', function(event) {
+// Close modal with Escape key
+document.addEventListener('keydown', function (event) {
     if (event.key === 'Escape') {
-        closeModal(modalId);
+        const modals = document.querySelectorAll('.modal'); // Find all modals
+        modals.forEach(modal => {
+            modal.style.display = 'none';
+        });
     }
 });
