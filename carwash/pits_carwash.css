@@ -412,6 +412,8 @@ button {
 .contact-text {
   color: #f3f3f5; /* White text */
   font-size: 1rem;
+  text-decoration: none;
+  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 

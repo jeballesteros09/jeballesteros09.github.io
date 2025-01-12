@@ -87,6 +87,13 @@ button {
     no-repeat center;
   background-size: cover;
   z-index: 5;
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
+}
+
+.login:hover {
+  transform: scale(1.1); /* Grows the logo towards the viewer */
+  opacity: 1;
+  filter: brightness(1.2);
 }
 
 .sign-up-log-in {
@@ -107,7 +114,14 @@ button {
   text-align: right;
   letter-spacing: 1.6px;
   z-index: 6;
+  transition: transform 0.3s ease, opacity 0.3s ease, filter 0.3s ease;
 }
+
+/*.sign-up-log-in:hover {
+  transform: scale(1.1); /* Grows the logo towards the viewer
+  opacity: 1;
+  filter: brightness(1.2);
+}*/
 
 .pits-carwash-logo {
   position: relative;
@@ -146,6 +160,7 @@ button {
   letter-spacing: 1.44px;
   z-index: 4;
 }
+
 .rectangle {
   position: relative;
   width: 1440px;
@@ -154,6 +169,7 @@ button {
   background: #000000;
   z-index: 7;
 }
+
 .flex-row-ddf {
   position: relative;
   width: 1440px;
@@ -161,6 +177,7 @@ button {
   margin: 0 0 0 0;
   z-index: 9;
 }
+
 .rectangle-1 {
   position: absolute;
   width: 1440px;
@@ -170,6 +187,7 @@ button {
   background: #000000;
   z-index: 8;
 }
+
 .rectangle-2 {
   position: absolute;
   font-family: Saira Stencil One, var(--default-font-family);
@@ -181,6 +199,7 @@ button {
   background: #000000;
   z-index: 9;
 }
+
 .ubicacion {
   display: block;
   position: relative;
@@ -196,6 +215,7 @@ button {
   letter-spacing: 1.92px;
   z-index: 10;
 }
+
 .flex-row-ea {
   position: relative;
   width: 532px;
