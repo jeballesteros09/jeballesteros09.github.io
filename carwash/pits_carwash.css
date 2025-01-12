@@ -179,7 +179,7 @@ button {
   z-index: 12;
 }
 .pits-carwash-logo {
-  position: relative;
+  position: absolute;
   width: 309.4px;
   height: 204.4px;
   top: 40px;
@@ -201,7 +201,7 @@ button {
   width: 309.4px;
   height: 204.4px;
   top: 40px;
-  left: 1010px;
+  left: 1011px;
   background: url(../assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png)
     no-repeat center;
   background-size: cover;
@@ -636,7 +636,7 @@ button {
   position: absolute;
   right: 10px; /* Adjust this value to position horizontally */
   bottom: 10px;  /* Adjust this value to position vertically */
-  left: 900px;
+  left: 910px;
   width: 300px;
   height: 200px;
   overflow: hidden;

@@ -203,6 +203,7 @@ button {
   margin: 45px 0 0 39px;
   z-index: 13;
 }
+
 .primary {
   position: absolute;
   width: 15px;
@@ -215,6 +216,7 @@ button {
   transform: translate(-1773.33%, -152.9%);
   z-index: 12;
 }
+
 .costa-del-este {
   display: flex;
   align-items: flex-start;
@@ -233,6 +235,7 @@ button {
   letter-spacing: 1.2px;
   z-index: 13;
 }
+
 .text-5 {
   display: block;
   position: relative;
@@ -248,6 +251,7 @@ button {
   letter-spacing: 1.92px;
   z-index: 11;
 }
+
 .text-6 {
   display: block;
   position: relative;
@@ -263,6 +267,7 @@ button {
   letter-spacing: 0.96px;
   z-index: 17;
 }
+
 .pic-3 {
   position: relative;
   width: 17.5px;
@@ -273,11 +278,12 @@ button {
   background-size: cover;
   z-index: 14;
 }
+
 .text-7 {
   display: block;
   position: relative;
   height: 11px;
-  margin: 23.5px 0 0 82px;
+  margin: 24px 0 0 82px;
   color: #ffffff;
   font-family: Saira Stencil One, var(--default-font-family);
   font-size: 16px;
@@ -288,16 +294,18 @@ button {
   letter-spacing: 0.96px;
   z-index: 16;
 }
+
 .pic-4 {
   position: relative;
-  width: 17.51px;
-  height: 17.506px;
+  width: 17.5px;
+  height: 17.5px;
   margin: -10px 0 0 47px;
   background: url(./assets/images/fdd1a726-7ffc-476b-a3e4-4ca50e31c1be.png)
     no-repeat center;
   background-size: cover;
   z-index: 15;
 }
+
 .rectangle-3 {
   position: absolute;
   width: 1440px;
@@ -310,6 +318,7 @@ button {
   border-right: 1px solid #000000;
   border-left: 1px solid #000000;
 }
+
 .carwash-bg {
   position: absolute;
   width: 1440px;
