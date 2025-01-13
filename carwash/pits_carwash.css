@@ -171,6 +171,20 @@ button {
   align-items: center;
   justify-content: center;
 }
+
+
+.servicios-title {
+  top: 20px;
+  left: 260px;
+  position: absolute;
+  color: #cf0029;
+  text-align: left;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  font-family: Saira Stencil One, var(--default-font-family);
+  z-index: 9;
+}
+
 .flex-row-c {
   position: relative;
   width: 1440px;
@@ -182,7 +196,7 @@ button {
   position: absolute;
   width: 309.4px;
   height: 204.4px;
-  top: 40px;
+  top: 150px;
   left: 325px;
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
@@ -200,7 +214,7 @@ button {
   position: absolute;
   width: 309.4px;
   height: 204.4px;
-  top: 40px;
+  top: 150px;
   left: 1011px;
   background: url(../assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png)
     no-repeat center;
@@ -214,11 +228,12 @@ button {
   opacity: 1;
   filter: brightness(1.2);
 }
+
 .rectangle {
   position: absolute;
   min-width: 1650px;
-  height: 314px;
-  top: 29px;
+  height: 450px;
+  top: 0px;
   left: 0;
   background: #000000;
   z-index: 6;
@@ -230,7 +245,7 @@ button {
   position: absolute;
   width: 148px;
   height: 38px;
-  top: 287px;
+  top: 357px;
   left: 403px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
@@ -248,7 +263,7 @@ button {
   position: absolute;
   width: 148px;
   height: 38px;
-  top: 287px;
+  top: 357px;
   left: 1088px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
@@ -368,19 +383,23 @@ button {
   z-index: 2;
 }
 
-.contact-section {
+.contact-section { 
+  padding: 40px;
+  position: relative;
   background-color: black;
   color: white;
   left: 0;
-  padding: 20px;
   text-align: left;
   font-family: Saira Stencil One, var(--default-font-family);
+  margin: 100px 0 0 0;
+  height: 400px;
   width: 1650px;
 }
 
 .contact-title {
+  height: 120px;
   position: relative;
-  left: 180px;
+  left: 220px;
   color: #cf0029;
   text-align: left;
   margin-bottom: 20px;
@@ -475,17 +494,20 @@ button {
 
 #clientes-sec {
   background-color: #000000;
+  height: 650px;
   width: 1650px;
   padding: 2rem 0;
   position: relative;
 }
 
 .section-title {
-  font-family: Saira Stencil One, var(--default-font-family);
+  height: 120px;
+  position: relative;
+  left: 0px;
+  color: #cf0029;
+  margin-bottom: 20px;
   font-size: 2rem;
-  color: #ff3333;
-  margin-bottom: 3rem;
-  text-align: center; /* Center the title */
+  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 .reviews-container {
@@ -589,14 +611,6 @@ button {
   body {
       padding: 1rem;
   }
-}
-
-.contact-section {
-  background-color: black;
-  color: white;
-  padding: 40px;
-  position: relative;
-  font-family: Saira Stencil One, var(--default-font-family);
 }
 
 .contact-details {
