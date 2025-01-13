@@ -67,6 +67,8 @@ button {
   background-size: cover;
 }
 
+
+
 .logo-text {
   font-size: 128px; /* Adjust the text size */
   font-weight: normal; /* Bold text */
@@ -654,5 +656,104 @@ button {
   height: auto;
   min-height: fit-content;
   position: relative;
+}
+
+@media (max-width: 480px) {
+
+  .pits-logo-removebg {
+    width: 100%; /* Make logo responsive */
+    height: auto;
+  }
+
+  body {
+    font-size: 14px;
+  }
+
+  .flex-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-text {
+    font-size: 64px; /* Adjust the text size for smaller screens */
+    text-align: center; /* Center the text */
+    margin-bottom: 10px;
+  }
+
+  .login {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .pits-logo-removebg {
+    width: 100%;
+    height: auto;
+  }
+
+  .logo-text {
+    font-size: 64px; /* Adjust the text size for smaller screens */
+    text-align: center; /* Center the text */
+    margin-bottom: 10px;
+  }
+
+  .login {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sign-up-log-in {
+    font-size: 14px; /* Adjust the font size */
+  }
+
+  .car-wash-detailing {
+    font-size: 18px; /* Adjust the font size */
+  }
+
+  .rectangle {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .gallery-title h3 {
+    font-size: 24px; /* Adjust the gallery title size */
+  }
+
+  .race-btn {
+    width: 100%; /* Make buttons full width */
+    margin-bottom: 10px; /* Add space between buttons */
+  }
+
+  .map-div iframe {
+    width: 100%; /* Make map full width */
+    height: 200px; /* Adjust height */
+  }
+
+  .ubicacion, .costa-del-este, .text-5, .text-6, .text-7 {
+    font-size: 14px; /* Adjust font sizes */
+  }
+  .flex-row {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+  }
+}
+
+@media (max-width: 768px) {
+  .racing-buttons {
+      flex-direction: column;
+      gap: 1.5rem;
+  }
+
+  .race-btn {
+      font-size: 14px;
+      padding: 0.7em 1.6em;
+  }
+}
+
+/* Dark mode compatibility */
+@media (prefers-color-scheme: dark) {
+  .race-btn {
+      color: #ffffff;
+  }
 }
 
