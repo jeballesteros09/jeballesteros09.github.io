@@ -123,3 +123,29 @@ body {
         padding: 1rem;
     }
 }
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem; /* Adjust the font size for smaller screens */
+    }
+
+    .logo img {
+        height: 40px; /* Adjust the logo size for smaller screens */
+    }
+
+    .blog-post {
+        padding: 1rem; /* Adjust the padding for smaller screens */
+    }
+
+    .title {
+        font-size: 1.2rem; /* Adjust the title size for smaller screens */
+    }
+
+    .excerpt {
+        font-size: 0.9rem; /* Adjust the excerpt size for smaller screens */
+    }
+
+    .read-more {
+        font-size: 0.9rem; /* Adjust the read more link size for smaller screens */
+    }
+}
