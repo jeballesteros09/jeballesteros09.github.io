@@ -185,13 +185,6 @@ button {
   z-index: 9;
 }
 
-.flex-row-c {
-  position: relative;
-  width: 1440px;
-  height: 343px;
-  margin: 681px 0 0 0;
-  z-index: 12;
-}
 .pits-carwash-logo {
   position: absolute;
   width: 309.4px;
@@ -232,8 +225,8 @@ button {
 .rectangle {
   position: absolute;
   min-width: 1650px;
-  height: 450px;
-  top: 25px;
+  height: 473px;
+  top: 40px;
   left: 0;
   background: #000000;
   z-index: 6;
@@ -313,15 +306,17 @@ button {
 .image-container {
   width: 1650px;
   height: 1000px;
-  margin: 130px 0 0 0;
+  margin: 170px 0 0 0;
   display: flex;
-  justify-content: space-between; /* Optional: adds space between the images */
+  justify-content: center; /* Optional: adds space between the images */
   background-color: rgb(0, 0, 0); /* Optional: for visibility of the container */
+  opacity: 0.90;
 }
 
 .image-container img {
-  width: 25%;  /* Each image takes up a portion of the container */
+  width: 20%;  /* Each image takes up a portion of the container */
   height: auto; /* Maintain aspect ratio */
+  margin: 7px;
   object-fit: contain; /* Ensures image fits without being stretched */
 }
 
@@ -329,7 +324,7 @@ button {
   position: absolute;
   filter: brightness(1);
   width: 1650px;
-  height: 355px;
+  height: 385px;
   top: 0;
   left: 0;
   background: url(../assets/images/close-up-fragile-foam-bubbles_23-2147798007.jpg)
@@ -338,12 +333,23 @@ button {
   opacity: 1;
 }
 
+
+.flex-row-c {
+  position: relative;
+  width: 1650px;
+  height: 343px;
+  left: 0;
+  margin: 800px 0 0 0px;
+  z-index: 12;
+  opacity: 0.90;
+}
+
 .flex-row {
   position: absolute;
-  width: 1312.5px;
-  height: 500px;
-  top: 354px;
-  left: 2.5px;
+  width: 1650px;
+  height: 400px;
+  top: 385px;
+  left: 0px;
   z-index: 5;
 }
 
@@ -354,7 +360,7 @@ button {
   position: absolute;
   width: 386px;
   height: 79px;
-  top: 21px;
+  top: 61px;
   left: 628.5px;
   color: #ffffff;
   font-family: Saira Stencil One, var(--default-font-family);
@@ -372,8 +378,8 @@ button {
   position: absolute;
   width: 1191px;
   height: 213px;
-  top: 87px;
-  left: 221.5px;
+  top: 147px;
+  left: 221px;
   color: #ffffff;
   font-size: 20px;
   line-height: 24px;
@@ -384,18 +390,16 @@ button {
   font-style: normal;
   }
 
-.rectangle-4 {
-  position: absolute;
-  width: 1650px;
-  height: 355px;
-  top: 355px;
-  left: 0;
-  background: url(../assets/images/269f83bf4b7bb0cb1082e85b0a2b1e4cedf0a558.png)
-    no-repeat center;
-  background-size: cover;
-  opacity: 0.90;
-  z-index: 2;
-}
+.rectangle-3 {
+    position: absolute;
+    width: 1650px;
+    height: 455px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.90;
+    z-index: 2;
+  }
 
 .contact-section { 
   padding: 40px;
@@ -408,6 +412,7 @@ button {
   margin: 0px 0 0 0;
   height: 400px;
   width: 1650px;
+  opacity: 1;
 }
 
 .contact-title {
