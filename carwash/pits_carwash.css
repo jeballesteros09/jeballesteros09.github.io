@@ -358,7 +358,7 @@ button {
   align-items: flex-start;
   justify-content: left ;
   position: absolute;
-  width: 386px;
+  width: auto;
   height: 79px;
   top: 61px;
   left: 265px;
