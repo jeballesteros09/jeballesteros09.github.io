@@ -180,7 +180,7 @@ button {
   color: #cf0029;
   text-align: left;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Saira Stencil One, var(--default-font-family);
   z-index: 9;
 }
@@ -189,7 +189,7 @@ button {
   position: absolute;
   width: 309.4px;
   height: 204.4px;
-  top: 150px;
+  top: 180px;
   left: 325px;
   background: url(../assets/images/57f2f657b27937e08e248c6b9bbdaefaecac5689.png)
     no-repeat center;
@@ -207,7 +207,7 @@ button {
   position: absolute;
   width: 309.4px;
   height: 204.4px;
-  top: 150px;
+  top: 180px;
   left: 1011px;
   background: url(../assets/images/ef6a47feffd8b518e8e9cc781c9b0a05060e007e.png)
     no-repeat center;
@@ -238,7 +238,7 @@ button {
   position: absolute;
   width: 148px;
   height: 38px;
-  top: 357px;
+  top: 397px;
   left: 403px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
@@ -256,7 +256,7 @@ button {
   position: absolute;
   width: 148px;
   height: 38px;
-  top: 357px;
+  top: 397px;
   left: 1088px;
   color: #ffffff;
   font-family: Allerta Stencil, var(--default-font-family);
@@ -356,15 +356,15 @@ button {
 .quienes-somos {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: left ;
   position: absolute;
   width: 386px;
   height: 79px;
   top: 61px;
-  left: 628.5px;
-  color: #ffffff;
+  left: 265px;
+  color: #cf0029;
   font-family: Saira Stencil One, var(--default-font-family);
-  font-size: 32px;
+  font-size: 3rem;
   font-weight: 700;
   line-height: 33.886px;
   text-align: center;
@@ -422,7 +422,7 @@ button {
   color: #cf0029;
   text-align: left;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Saira Stencil One, var(--default-font-family);
 }
 
@@ -525,7 +525,7 @@ button {
   left: 0px;
   color: #cf0029;
   margin-bottom: 20px;
-  font-size: 2rem;
+  font-size: 3rem;
   font-family: Saira Stencil One, var(--default-font-family);
 }
 
