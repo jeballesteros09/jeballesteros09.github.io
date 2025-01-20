@@ -158,13 +158,12 @@ button {
 
 .main-container {
   position: relative;
-  
   width: 100%;  /* Change from fixed width to full width */
   min-height: 100vh;  /* Minimum height of viewport */
   min-width: 100vh;
   margin: 0 auto;
   background: #000000;
-  background-image: url("../assets/images/6027.jpg");
+  background-image: url(../assets/images/6027.jpg);
   background-size: cover;
   overflow-x: hidden;  /* Prevent horizontal scrolling */
   overflow-y: auto;   /* Allow vertical scrolling */
@@ -296,13 +295,6 @@ button {
   font-family: Saira Stencil One, var(--default-font-family);
 }
 
-
-/* .pits-carwash-logo-nobg:hover {
-  transform: scale(1.1); Grows the logo towards the viewer 
-  opacity: 1;
-  filter: brightness(1.2);
-}*/
-
 .image-container {
   width: 1650px;
   height: 1000px;
@@ -361,7 +353,7 @@ button {
   width: auto;
   height: 79px;
   top: 61px;
-  left: 265px;
+  left: 263px;
   color: #cf0029;
   font-family: Saira Stencil One, var(--default-font-family);
   font-size: 3rem;
