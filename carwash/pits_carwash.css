@@ -320,7 +320,7 @@ button {
 }
 
 .image-container img {
-  width: 50%;  /* Each image takes up a portion of the container */
+  width: 25%;  /* Each image takes up a portion of the container */
   height: auto; /* Maintain aspect ratio */
   object-fit: contain; /* Ensures image fits without being stretched */
 }
